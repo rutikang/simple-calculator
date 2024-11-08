@@ -3,6 +3,7 @@ import './App.css';
 import Box from '@mui/material/Box';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Add, CancelPresentation, Close, DisabledByDefault, Remove} from '@mui/icons-material';
+// import { Routes } from 'react-router-dom';
 
 // calculator
 import { useState, useRef } from 'react';
@@ -51,7 +52,7 @@ const clearAll = (e) =>{
    
 }
   return(
-    
+    // <Routes>
     <Box sx={{bgcolor:"white", height:'95vh', display:'flex', alignItems:'center', justifyContent:'center'}}>
       <Box sx=
       {{
@@ -104,6 +105,7 @@ const clearAll = (e) =>{
     
     </Box>
     </Box>
+    // </Routes>
     
   )
 
